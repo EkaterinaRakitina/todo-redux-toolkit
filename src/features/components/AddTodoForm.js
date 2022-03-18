@@ -12,6 +12,7 @@ const AddTodoForm = () => {
       id: Date.now(),
       completed: false,
     }))
+    setText("");
   }
 
   return (
